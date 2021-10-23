@@ -1,0 +1,11 @@
+#affichage { 
+    color: black;
+}
+
+.valide {
+    color: green;
+}
+
+.invalide {
+    color: red;
+}

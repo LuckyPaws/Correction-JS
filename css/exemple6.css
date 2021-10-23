@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#affichage { 
+    color: rgb(47, 0, 255);
+    font-weight: bold;
+}
+
+table, table th, table td {
+    border: solid 1px rgb(47, 0, 255);
+}
+
+.pair {
+    color: rgb(255, 157, 0); 
+}

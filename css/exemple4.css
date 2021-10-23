@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#affichage { 
+    color: red;
+    font-weight: bold;
+}

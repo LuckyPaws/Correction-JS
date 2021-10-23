@@ -1,0 +1,59 @@
+/// <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<h1>Formulaire d'inscription</h1>
+<body>
+    <form>
+       Sexe :
+        <input value="Homme" type="radio" name="Sexe" id="Homme"><label for="Homme">Homme</label>
+        <input value="Femme" type="radio" name="Sexe" id="Femme"><label for="Femme">Femme</label>
+<br>
+        <label for="input_pseudo">Pseudo :</label>
+            <input type="text" name="user_pseudo" id="pseudo" placeholder="Entrez votre Pseudo">
+            <br>
+        <label for="input_mail">Email :</label>
+            <input type="email" name="user_mail" id="mail"  placeholder="Entrez votre email">  
+            <br>
+            <label for="pays">Pays :</label>
+        <select name="user_country" id="country">
+            <optgroup label="Europe">
+                <option value="France">France</option>
+                <option value="Espagne">Espagne</option>
+                <option value="Italie">Italie</option>
+                <option value="Royaume-Uni">Royaume-Uni</option>
+            <optgroup label="Afrique">
+            <option value="Cameroun">Cameroun</option>
+            <option value="Congo">Congo</option>
+            <optgroup label="Amérique">
+                <option value="Canada">Canada</option>
+                <option value="Etats-Unis">Etats-Unis</option>
+                <optgroup label="Asie">
+                    <option value="Chine">Chine</option>
+                    <option value="Japon">Japon</option>
+        </optgroup>
+        </select>
+        <br>
+        <label for="input_mdp">Mot de passe :</label>
+        <input type="password" name="Mot de passe" id="mdp"><label for="mdp"></label>
+        <br>
+        <label for="input_mdp2">Confirmer mot de passe :</label>
+        <input type="password" name="Confirmer mot de passe" id="mdp2"><label for="mdp2"></label>
+        <br>
+        <br>
+        <p>Quel réseaux sociaux utilisez vous ?</p>
+        <input value="Twitter" type="checkbox" name="twi" id="Twitter"><label for="Twitter"> Twitter</label>
+        <input value="Facebook" type="checkbox" name="fb" id="fb"><label for="fb">Facebook</label>
+        <input value="Instagram" type="checkbox" name="ig" id="ig"><label for="ig">Instagram</label>
+        <br>
+        <label for="msg">Message</label>
+        <textarea name="user_message" id="msg" cols="30" rows="5"></textarea><br>
+        <br>
+        <input type="submit" value="S'inscrire">
+    </form>
+</body>
+</html> 
